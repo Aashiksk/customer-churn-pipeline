@@ -1,5 +1,15 @@
 venv/
 __pycache__/
 .ipynb_checkpoints/
+
 *.pyc
-saved_model/
+*.pyo
+
+saved_model/churn_rf_pipeline/metadata/*
+saved_model/churn_rf_pipeline/stages/*/metadata/*
+
+.DS_Store
+Thumbs.db
+
+.idea/
+.vscode/
